@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             MateringCICDTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "CI/CD World!",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -42,6 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     MateringCICDTheme {
-        Greeting("Android")
+        Greeting("CI/CD World!")
     }
 }
