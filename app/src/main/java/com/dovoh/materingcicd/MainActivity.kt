@@ -78,6 +78,6 @@ fun GreetingWithInputAndButton(name: String, onButtonClick: (String) -> Unit,mod
 @Composable
 fun GreetingPreview() {
     MateringCICDTheme {
-        GreetingWithInputAndButton(name = "CI/CD World!", onButtonClick = {})
+        GreetingWithInputAndButton(name = "", onButtonClick = {})
     }
 }
